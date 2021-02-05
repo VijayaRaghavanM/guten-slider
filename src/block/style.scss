@@ -1,0 +1,35 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-guten-slider  {
+  padding: 2rem;
+}
+
+.slide {
+  position: relative;
+  width: 550px;
+  height: 350px;
+  img.slide_main,
+  video.slide_main {
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .slide_caption {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0px 5px;
+    font-size: 12px;
+    border-radius: 0px 0px 5px 0px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+  }
+}
+
+
